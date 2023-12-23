@@ -5,6 +5,7 @@ metadata:
  namespace: kong
  annotations:
    konghq.com/strip-path: "true"
+   konghq.com/plugins: "add-response-header"
 spec:
  parentRefs:
  - name: kong
